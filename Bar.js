@@ -32,12 +32,6 @@ export default class ProgressBar extends Component {
     // eslint-disable-next-line react/forbid-prop-types
     animationConfig: PropTypes.object.isRequired,
     animationType: PropTypes.oneOf(['decay', 'timing', 'spring']),
-    gradient: PropTypes.shape({
-      start: LinearGradient.propTypes.start,
-      end: LinearGradient.propTypes.end,
-      colors: LinearGradient.propTypes.colors,
-      locations: LinearGradient.propTypes.locatios,
-    }),
   };
 
   static defaultProps = {
